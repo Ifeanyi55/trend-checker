@@ -49,8 +49,8 @@ ui <- list(useShinyjs(),navbarPage(windowTitle = "TrendChecker",
                                    tabPanel(title = strong("Web"), icon = icon("play"),
                                             sidebarLayout(
                                               sidebarPanel(id = "",width = 2),
-                                              mainPanel(div(class = ".center", includeHTML("quotes.html"),style = ".center {border: 5px solid; margin: auto; width: 50%; padding: 10px;
-}"))),
+                                              mainPanel(#div(class = ".center", includeHTML("quotes.html"),style = ".center {border: 5px solid; margin: auto; width: 50%; padding: 10px;}"
+))),
                                    
                                    ))
 ) 
